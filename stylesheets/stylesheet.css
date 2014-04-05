@@ -52,8 +52,7 @@ Theme Styles
 *******************************************************************************/
 
 body {
-  background: url('../images/MAOSHH_PIC.jpg');
-  background-size: cover;
+  background-color: black;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -261,7 +260,13 @@ Full-Width Styles
 *******************************************************************************/
 
 .outer {
+	background: url('../images/MAOSHH_PIC_LOW.jpg');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
+  height: 745px;
+  overflow: hidden;
 }
 
 .inner {
@@ -368,8 +373,6 @@ Full-Width Styles
 #footer_wrap {
   background: #212121;
 }
-
-
 
 /*******************************************************************************
 Small Device Styles
